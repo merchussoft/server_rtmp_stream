@@ -1,0 +1,19 @@
+{
+  "name": "servidor_rtmp_nuevo1",
+  "version": "0.0.1",
+  "description": "servidor rtmp para gestionar varios streams desde un solo rtmp",
+  "main": "index.js",
+  "repository": "https://github.com/merchussoft/server_rtmp_stream.git",
+  "author": "daniel merchan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "2.8.5",
+    "ejs": "3.1.10",
+    "express": "4.21.1",
+    "node-media-server": "2.7.0"
+  },
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  }
+}
